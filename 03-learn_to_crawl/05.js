@@ -25,3 +25,20 @@
  * support for it is not everywhere.
  */
 
+let myName = "debojit";
+let greeting = "Good day to you";
+let friendName = "bhargav";
+let familyMember = "mom";
+let todayDate = "28";
+let todayMonth = "february";
+let todayYear = "2025";
+let age = "23";
+
+console.log(greeting + " " + friendName);
+console.log(`${greeting} ${friendName}`);
+console.log(greeting + " " + familyMember);
+console.log(`${greeting} ${familyMember}`);
+console.log(greeting + " " + friendName + " today is " + todayDate + " " + todayMonth);
+console.log(`${greeting} ${friendName} today is ${todayDate} ${todayMonth}`);
+console.log("In 20 years I will be " + (parseInt(age) + 20) + "  years old");
+console.log(`In 20 years I will be ${ parseInt(age) + 20}  years old`);

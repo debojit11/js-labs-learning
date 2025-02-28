@@ -21,5 +21,24 @@
  * with clear and descriptive names.
  */
 
-let result = 0
-console.log("Label", result)
+let number1= 3874;
+let number2 = 2398;
+let number3 = 1234;
+let luckyNumber = 7;
+let sum = number1 + number2 + number3;
+console.log("sum of the numbers:", sum);
+
+let largest = Math.max(number1, number2, number3);
+let smallest1 = Math.min(number1, number2, number3);
+let smallest2 = number1+number2+number3-largest-smallest1;
+let subtract = largest- (smallest1+smallest2);
+console.log("subtracting the two smallest numbers from the larger one:", subtract);
+
+let multiply = number1*number2*number3;
+console.log("multiplying all the numbers:", multiply)
+
+let divide =  largest/(Math.abs(smallest1-smallest2));
+console.log("largest number divided by the difference between the smaller ones:", divide);
+
+let modulo = [number1%luckyNumber, number2%luckyNumber, number3%luckyNumber];
+console.log("result of the the numbers modulo 7:", modulo);
