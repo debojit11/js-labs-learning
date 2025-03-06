@@ -14,3 +14,17 @@
  * find both ways!
  *
  */
+
+for (let i=5; i<=1000; i+=5){
+    console.log(i);
+}
+
+for (let i=100; i>=-100; i--){
+    console.log(i);
+}
+
+let num=0;
+for (let i=0; i<5000; i++){
+    num+=(i%2==0)?3:-1;
+}
+console.log("Final number after 5000 iterations:", num);

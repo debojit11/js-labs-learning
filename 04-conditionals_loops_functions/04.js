@@ -21,12 +21,33 @@
  */
 
 // Write your code here:
-
-
-
-
-
-
+function KtoC(k){
+    return k-273.15;
+}
+function CtoK(c){
+    return c+273.15;
+}
+function FtoK(f){
+    return (f-32)*(5/9)+273.15;
+}
+function KtoF(k){
+    return (k-273.15)*(9/5)+32;
+}
+function pythagoras(a,b){
+    return Math.sqrt(a**2+ b**2);
+}
+function inchToCm(inch){
+    return inch*2.54;
+}
+function CmToInch(cm){
+    return cm/2.54;
+}
+function MToKm(miles){
+    return miles*1.60934;
+}
+function KmToM(km){
+    return km/1.60934;
+}
 
 
 
